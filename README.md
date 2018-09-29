@@ -40,7 +40,7 @@ This repository contains a sample configuration to run macOS (Currently Mojave `
   - `BoardSerialNumber`: Change any `Z` to random letters or numbers
   - `Memory -> Modules`: Fill in the correct size for your RAM in `Size`, e.g. `4096` for 4GB, `8192` for 8GB
   - `SerialNumber`: Change any `Z` to random letters or numbers
-  - `SmUUID`: Generate a unique UUID by `udidgen`
+  - `SmUUID`: Generate a unique UUID by `uuidgen` or simply use a [online service][uuid]
 * All SSDT hotpatches are located at `EFI/CLOVER/ACPI/dsl`. You can update the compiled `.aml` binaries by running `update.sh` (macOS) or `update.bat` (Windows).
 * The `SSDT-KBD.aml` is tuned for `ApplePS2SmartTouchPad.kext`. If you want to switch to `VoodooPS2Controller.kext`, use `SSDT-KBD.aml` in `backup` folder instead.
 
@@ -53,3 +53,4 @@ This repository contains a sample configuration to run macOS (Currently Mojave `
 [t480]: https://www.hackintosh-forum.de/index.php/Thread/37614-Lenovo-T480/?postID=434080#post434080
 [layout11]: https://github.com/acidanthera/AppleALC/tree/master/Resources/ALC257
 [clover]: https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/
+[uuid]: https://www.uuidgenerator.net/
