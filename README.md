@@ -40,7 +40,7 @@ This repository contains a sample configuration to run macOS (Currently Mojave `
   - `BoardSerialNumber`: Change any `Z` to random letters or numbers
   - `Memory -> Modules`: Fill in the correct size for your RAM in `Size`, e.g. `4096` for 4GB, `8192` for 8GB
   - `SerialNumber`: Change any `Z` to random letters or numbers
-  - `SmUUID`: Generate a unique UUID by `uuidgen` or simply use a [online service][uuid]
+  - `SmUUID`: Generate a unique UUID by `uuidgen` or simply using an [online service][uuid]
 * All SSDT hotpatches are located at `EFI/CLOVER/ACPI/dsl`. You can update the compiled `.aml` binaries by running `update.sh` (macOS) or `update.bat` (Windows).
 * The `SSDT-KBD.aml` is tuned for `ApplePS2SmartTouchPad.kext`. If you want to switch to `VoodooPS2Controller.kext`, use `SSDT-KBD.aml` in `backup` folder instead.
 
