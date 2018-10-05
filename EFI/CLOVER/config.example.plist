@@ -297,6 +297,7 @@
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-KBD.aml</string>
 			<string>SSDT-BATT.aml</string>
+			<string>SSDT-THBT.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -332,6 +333,52 @@
 				<key>device-id</key>
 				<data>
 				FlkAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<integer>1</integer>
+				<key>framebuffer-con1-busid</key>
+				<data>
+				BQAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con1-flags</key>
+				<data>
+				hwEAAA==
+				</data>
+				<key>framebuffer-con1-index</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>
+				CgAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-con2-busid</key>
+				<data>
+				BAAAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>
+				hwEAAA==
+				</data>
+				<key>framebuffer-con2-index</key>
+				<data>
+				AgAAAA==
+				</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>
+				CgAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
