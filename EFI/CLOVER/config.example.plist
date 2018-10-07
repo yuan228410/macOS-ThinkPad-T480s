@@ -303,7 +303,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
+		<string>dart=0 nv_disable=1 bpr_probedelay=200 bpr_initialdelay=400 bpr_postresetdelay=400</string>
 		<key>DefaultVolume</key>
 		<string></string>
 		<key>Legacy</key>
